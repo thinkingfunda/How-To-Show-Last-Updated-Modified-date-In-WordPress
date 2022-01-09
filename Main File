@@ -1,4 +1,4 @@
-// By Web Insights
+// By Thinkingfunda
 add_filter( 'generate_post_date_output', function( $output, $time_string ) {
     $time_string = '<time class="entry-date published" datetime="%1$s" itemprop="datePublished">Published on: %2$s</time>';
     if ( get_the_date() !== get_the_modified_date() ) {
